@@ -16,30 +16,11 @@
 [![Mail](https://img.shields.io/badge/Mail-22153A?style=for-the-badge&logo=gmail&logoColor=FF91E9)](mailto:kay.fehr31@gmail.com)
 -->
 
+<img src="https://raw.githubusercontent.com/Kay313/Kay313/main/assets/divider.svg" alt="" width="100%">
+
 <img src="https://raw.githubusercontent.com/Kay313/Kay313/main/assets/snake.svg" alt="Snake" width="100%">
 
 <img src="https://raw.githubusercontent.com/Kay313/Kay313/main/assets/divider.svg" alt="" width="100%">
-
-### Plugins
-
-| Plugin | Stack |
-| :--- | :--- |
-| **MBPM** | Velocity · MariaDB · HikariCP |
-| **MBSkyManager** | Paper · Geyser |
-| **MBSkyConnector** | Paper · CloudNet |
-| **MBAIO** | Paper |
-| **MBManager** | Paper |
-| **LobbyMiniCore** | Paper |
-| **MBVoidWorld** | Paper |
-| **MBSimple** | Fabric · WorldEdit |
-| **MBF3** | Fabric · Mixin |
-| **MBMod** · **MBBeats** · **Drachus** | JDA · LavaPlayer |
-| **CloudNet Panel** | Node · WebSocket · JWT |
-| **MagicCloset** | Expo · SQLite · Ollama |
-
-<img src="https://raw.githubusercontent.com/Kay313/Kay313/main/assets/divider.svg" alt="" width="100%">
-
-### Stack
 
 ![Java](https://img.shields.io/badge/Java-22153A?style=for-the-badge&logo=openjdk&logoColor=C985FF)
 ![Maven](https://img.shields.io/badge/Maven-22153A?style=for-the-badge&logo=apachemaven&logoColor=C985FF)
@@ -63,25 +44,6 @@
 ![IntelliJ](https://img.shields.io/badge/IntelliJ-22153A?style=for-the-badge&logo=intellijidea&logoColor=C985FF)
 
 <img src="https://raw.githubusercontent.com/Kay313/Kay313/main/assets/divider.svg" alt="" width="100%">
-
-<!-- Die beiden Karten von github-readme-stats (Stats + Top Languages) standen
-     hier und sind am 2026-08-01 entfernt worden: die oeffentliche Instanz
-     github-readme-stats.vercel.app antwortet mit DEPLOYMENT_PAUSED, die Karten
-     blieben also dauerhaft kaputt. Wer sie zurueck will, hostet den Dienst
-     selbst (github.com/anuraghazra/github-readme-stats, Deploy auf Vercel mit
-     eigenem PAT) und traegt die eigene Domain statt .vercel.app ein.
-
-     Die beiden folgenden Karten laufen ueber Fremd-Dienste und sind geprueft
-     erreichbar, koennen aber ebenfalls ausfallen. Block loeschen stoert den
-     Rest der Seite nicht. -->
-
-<img src="https://streak-stats.demolab.com/?user=Kay313&border_radius=14&background=170D29&border=422B6C&stroke=422B6C&ring=C985FF&fire=FF91E9&currStreakLabel=C985FF&sideLabels=DDD2EE&dates=AB9DC0&currStreakNum=FFFAFF&sideNums=FFFAFF" alt="Streak" height="170">
-
-<br><br>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Kay313&radius=14&bg_color=170D29&color=DDD2EE&title_color=C985FF&line=C985FF&point=FF91E9&area=true&area_color=A958FF&border_color=422B6C" alt="Activity Graph" width="100%">
-
-<br><br>
 
 <img src="https://raw.githubusercontent.com/Kay313/Kay313/main/assets/footer.svg" alt="MegaBuild.de" width="100%">
 
