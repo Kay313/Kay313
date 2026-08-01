@@ -119,6 +119,10 @@ My focus is **Java backends and distributed server systems**: Velocity proxies, 
 
 <img src="https://raw.githubusercontent.com/Kay313/Kay313/main/assets/divider.svg" alt="" width="100%">
 
+<img src="https://raw.githubusercontent.com/Kay313/Kay313/main/assets/snake.svg" alt="Snake" width="100%">
+
+<img src="https://raw.githubusercontent.com/Kay313/Kay313/main/assets/divider.svg" alt="" width="100%">
+
 <!-- Die folgenden Karten kommen von Drittanbieter-Diensten (github-readme-stats,
      demolab). Sie sind in den MegaBuild-Farben eingefärbt, können aber gelegentlich
      langsam laden oder ausfallen — dann sind sie kurz als kaputtes Bild zu sehen.

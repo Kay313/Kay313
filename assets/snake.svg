@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" width="1000" height="200" role="img" aria-label="Animierte Snake in den MegaBuild-Farben">
+  <title>Snake — MegaBuild.de</title>
+
+  <!--
+    Der Kopf laeuft mit begin="-1.80s" voraus, jedes Koerpersegment liegt 0.12s
+    weiter zurueck (bis begin="0s" am Schwanz). Bei animateMotion heisst ein
+    negatives begin: das Element ist bereits weiter auf dem Pfad.
+    Futter- und Score-Zeitpunkte sind daher um 1.80s / 22s = 0.0818 vorgezogen.
+  -->
+
+  <defs>
+    <linearGradient id="sbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#170d29"/>
+      <stop offset="50%"  stop-color="#22153a"/>
+      <stop offset="100%" stop-color="#170d29"/>
+    </linearGradient>
+
+    <pattern id="sdots" width="25" height="25" patternUnits="userSpaceOnUse">
+      <circle cx="12.5" cy="12.5" r="1.1" fill="#c985ff" opacity="0.10"/>
+    </pattern>
+
+    <filter id="sglow" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+
+    <clipPath id="scard">
+      <rect x="1" y="1" width="998" height="198" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <rect x="1" y="1" width="998" height="198" rx="20" fill="url(#sbg)"/>
+
+  <g clip-path="url(#scard)">
+    <rect x="0" y="0" width="1000" height="200" fill="url(#sdots)"/>
+
+    <!-- labels -->
+    <text x="40" y="33" font-family="Geist, 'Segoe UI', Inter, system-ui, sans-serif"
+          font-size="13" font-weight="700" letter-spacing="4" fill="#ab9dc0">SNAKE</text>
+    <text x="852" y="33" font-family="Geist, 'Segoe UI', Inter, system-ui, sans-serif"
+          font-size="13" font-weight="700" letter-spacing="4" fill="#ab9dc0">SCORE</text>
+
+    <g font-family="Geist, 'Segoe UI', Inter, system-ui, sans-serif" font-size="15" font-weight="700" fill="#ff91e9">
+      <text x="940" y="33">0<animate attributeName="opacity" values="1;0;0"   keyTimes="0;0.0404;1"        dur="22s" repeatCount="indefinite" calcMode="discrete"/></text>
+      <text x="940" y="33">1<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.0404;0.3249;1" dur="22s" repeatCount="indefinite" calcMode="discrete"/></text>
+      <text x="940" y="33">2<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.3249;0.5516;1" dur="22s" repeatCount="indefinite" calcMode="discrete"/></text>
+      <text x="940" y="33">3<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.5516;0.8362;1" dur="22s" repeatCount="indefinite" calcMode="discrete"/></text>
+      <text x="940" y="33">4<animate attributeName="opacity" values="0;1;1"   keyTimes="0;0.8362;1"        dur="22s" repeatCount="indefinite" calcMode="discrete"/></text>
+    </g>
+
+    <!-- food -->
+    <g>
+      <circle cx="500" cy="63" r="6" fill="#8cffb8">
+        <animate attributeName="opacity" values="1;0;1" keyTimes="0;0.0404;1" dur="22s" repeatCount="indefinite" calcMode="discrete"/>
+        <animate attributeName="r" values="5;7.5;5" dur="1.6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="400" cy="88" r="6" fill="#8cffb8">
+        <animate attributeName="opacity" values="1;0;1" keyTimes="0;0.3249;1" dur="22s" repeatCount="indefinite" calcMode="discrete"/>
+        <animate attributeName="r" values="5;7.5;5" dur="1.6s" begin="0.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="600" cy="113" r="6" fill="#8cffb8">
+        <animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5516;1" dur="22s" repeatCount="indefinite" calcMode="discrete"/>
+        <animate attributeName="r" values="5;7.5;5" dur="1.6s" begin="0.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="300" cy="138" r="6" fill="#8cffb8">
+        <animate attributeName="opacity" values="1;0;1" keyTimes="0;0.8362;1" dur="22s" repeatCount="indefinite" calcMode="discrete"/>
+        <animate attributeName="r" values="5;7.5;5" dur="1.6s" begin="1.2s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- head glow -->
+    <circle r="16" fill="#ff91e9" opacity="0.45" filter="url(#sglow)">
+      <animateMotion dur="22s" repeatCount="indefinite" begin="-1.80s"
+                     path="M120,63 H880 V88 H160 V113 H880 V138 H120 Z"/>
+    </circle>
+
+    <!-- body: tail first (painted below), head last (painted on top) -->
+    <rect x="-3.5"  y="-3.5"  width="7"    height="7"    rx="2" fill="#7943bf" opacity="0.62"><animateMotion dur="22s" repeatCount="indefinite" begin="0s"     path="M120,63 H880 V88 H160 V113 H880 V138 H120 Z"/></rect>
+    <rect x="-3.8"  y="-3.8"  width="7.6"  height="7.6"  rx="2" fill="#8248cc" opacity="0.65"><animateMotion dur="22s" repeatCount="indefinite" begin="-0.12s" path="M120,63 H880 V88 H160 V113 H880 V138 H120 Z"/></rect>
+    <rect x="-4.1"  y="-4.1"  width="8.2"  height="8.2"  rx="2" fill="#8b4dd8" opacity="0.68"><animateMotion dur="22s" repeatCount="indefinite" begin="-0.24s" path="M120,63 H880 V88 H160 V113 H880 V138 H120 Z"/></rect>
+    <rect x="-4.4"  y="-4.4"  width="8.8"  height="8.8"  rx="2" fill="#9452e2" opacity="0.71"><animateMotion dur="22s" repeatCount="indefinite" begin="-0.36s" path="M120,63 H880 V88 H160 V113 H880 V138 H120 Z"/></rect>
+    <rect x="-4.7"  y="-4.7"  width="9.4"  height="9.4"  rx="2" fill="#9d57eb" opacity="0.74"><animateMotion dur="22s" repeatCount="indefinite" begin="-0.48s" path="M120,63 H880 V88 H160 V113 H880 V138 H120 Z"/></rect>
+    <rect x="-5"    y="-5"    width="10"   height="10"   rx="2" fill="#a65cf2" opacity="0.77"><animateMotion dur="22s" repeatCount="indefinite" begin="-0.60s" path="M120,63 H880 V88 H160 V113 H880 V138 H120 Z"/></rect>
+    <rect x="-5.3"  y="-5.3"  width="10.6" height="10.6" rx="2" fill="#af61f7" opacity="0.80"><animateMotion dur="22s" repeatCount="indefinite" begin="-0.72s" path="M120,63 H880 V88 H160 V113 H880 V138 H120 Z"/></rect>
+    <rect x="-5.6"  y="-5.6"  width="11.2" height="11.2" rx="2" fill="#b866fb" opacity="0.83"><animateMotion dur="22s" repeatCount="indefinite" begin="-0.84s" path="M120,63 H880 V88 H160 V113 H880 V138 H120 Z"/></rect>
+    <rect x="-5.9"  y="-5.9"  width="11.8" height="11.8" rx="2" fill="#c16bfd" opacity="0.86"><animateMotion dur="22s" repeatCount="indefinite" begin="-0.96s" path="M120,63 H880 V88 H160 V113 H880 V138 H120 Z"/></rect>
+    <rect x="-6.2"  y="-6.2"  width="12.4" height="12.4" rx="2" fill="#ca70fd" opacity="0.89"><animateMotion dur="22s" repeatCount="indefinite" begin="-1.08s" path="M120,63 H880 V88 H160 V113 H880 V138 H120 Z"/></rect>
+    <rect x="-6.5"  y="-6.5"  width="13"   height="13"   rx="3" fill="#d375fb" opacity="0.92"><animateMotion dur="22s" repeatCount="indefinite" begin="-1.20s" path="M120,63 H880 V88 H160 V113 H880 V138 H120 Z"/></rect>
+    <rect x="-6.8"  y="-6.8"  width="13.6" height="13.6" rx="3" fill="#dc7af8" opacity="0.94"><animateMotion dur="22s" repeatCount="indefinite" begin="-1.32s" path="M120,63 H880 V88 H160 V113 H880 V138 H120 Z"/></rect>
+    <rect x="-7.1"  y="-7.1"  width="14.2" height="14.2" rx="3" fill="#e57ff4" opacity="0.96"><animateMotion dur="22s" repeatCount="indefinite" begin="-1.44s" path="M120,63 H880 V88 H160 V113 H880 V138 H120 Z"/></rect>
+    <rect x="-7.4"  y="-7.4"  width="14.8" height="14.8" rx="3" fill="#ee85ef" opacity="0.98"><animateMotion dur="22s" repeatCount="indefinite" begin="-1.56s" path="M120,63 H880 V88 H160 V113 H880 V138 H120 Z"/></rect>
+    <rect x="-7.7"  y="-7.7"  width="15.4" height="15.4" rx="3" fill="#f78bec"><animateMotion dur="22s" repeatCount="indefinite" begin="-1.68s" path="M120,63 H880 V88 H160 V113 H880 V138 H120 Z"/></rect>
+    <rect x="-8"    y="-8"    width="16"   height="16"   rx="4" fill="#ff91e9"><animateMotion dur="22s" repeatCount="indefinite" begin="-1.80s" path="M120,63 H880 V88 H160 V113 H880 V138 H120 Z"/></rect>
+  </g>
+
+  <rect x="1" y="1" width="998" height="198" rx="20" fill="none" stroke="#d3b0ff" stroke-opacity="0.18" stroke-width="1.5"/>
+</svg>
