@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 14" width="1000" height="14" role="presentation">
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#c985ff" stop-opacity="0"/>
+      <stop offset="22%"  stop-color="#a958ff" stop-opacity="0.5"/>
+      <stop offset="50%"  stop-color="#ff91e9" stop-opacity="0.85"/>
+      <stop offset="78%"  stop-color="#a958ff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#c985ff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0%"   stop-color="#fffaff"/>
+      <stop offset="35%"  stop-color="#ff91e9"/>
+      <stop offset="100%" stop-color="#ff91e9" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="6" width="1000" height="2" rx="1" fill="url(#line)"/>
+
+  <circle cy="7" r="7" fill="url(#glow)">
+    <animate attributeName="cx" values="140;860;140" dur="7s" repeatCount="indefinite"
+             keyTimes="0;0.5;1" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
+  </circle>
+</svg>
