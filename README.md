@@ -6,7 +6,7 @@
 
 [![Website](https://img.shields.io/badge/megabuild.de-22153A?style=for-the-badge&logo=googlechrome&logoColor=C985FF)](https://megabuild.de)
 [![Discord](https://img.shields.io/badge/Discord-22153A?style=for-the-badge&logo=discord&logoColor=C985FF)](https://megabuild.de/dc)
-[![Shop](https://img.shields.io/badge/Shop-22153A?style=for-the-badge&logo=shopify&logoColor=C985FF)](https://shop.megabuild.de)
+[![Shop](https://img.shields.io/badge/Shop-22153A?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAASCAYAAAA%2BPQxvAAAGv0lEQVRIDV2Wy48cVxnFf%2FXoqu6e7hmPp8czHmec8Tt2bJBJYgfLZpfEkAULFtkkASQkkBD5A0BCUSQk2CMhFIGBNTsipERiESwScIzjxE4ce%2FwcezzvmX53vS%2Fn9iwIVE09prru%2Fc53vvOdW87x0g%2BNQwl0zkl0F5KZFM%2BFklMhLSLqwTjT1QOEno%2Fn%2BNRHy0wfG%2BOpExMcnRkhqHhsrsfc%2FnyT6x%2Bvs7bSI8pS4jxheXCPdrKJ7wTkmjc3GS72PtY1JHdi7OaDM9xzMgo93Moe6S7C08vG5NT9BhPlY5rIUK36HDhRZnPnYz6ZecjHGTy94HPIrQqgS9QYMHk6YeP6Oks3WwzShNhJaKM5CyWncIWAVJ1pJVlT4orjhAwKAQ2CMkmSipCMNXOJg0%2FXmQymEGQNC%2FnX%2FYvciSJOPfFNDp0NuXjrjyx8coeTlWfJ04L7AvDO5lU6pS5nR8%2BSaVwhOnfWC9KaplG20wqsNDHiYC16xBdL77LXfUGJOkN2fCr4hSNOyjqUcRZ3%2BPbR73No4zhe7FDNKhyee5c%2F3bvAnVGPi1fWCDdWeWvfW5yffxF3AGXq%2FDz9KfdmFvn1xgXWuoau5uyLZ%2F1MR0fbQFPXvp4vle5ipn%2FCwuplGs4zREWTmtsQI5M1TCknTTu4a47AZPS6ffzEoUgzXnJfJp%2FNePvGb5gZn%2BHNI7%2FgzPUztNpNqnlZrGRcCa4yaWbotRSsH4twX0wtcMO%2FxkBZh%2BEuxpLn6KbSHfs5Mfoz7vGKoBVSZZeUEfz6TIOkaOMmA8ymkUg9EhMpnxK%2BpzoK2JPRHD%2BY%2FREn93yVZ28%2BQz%2FqU3XL%2BHmJ3zsXEL%2F4ro9r2d0eyXz5I36XvInJHb524BwvNZ%2BjveKoPCpXIq0ovNJXkxRipaXx0oY3UiVqrWo2h614k7YYsQDqRY0xM8pKb5HXgtfx5iEZJCpHKCmX%2BIf5gLqp83VzmnkeKsT2livM7tIcL%2B76jrThsHvkEPnKNsjI3WDF%2B0BMJgLSpz62k067jR9vxBSqvydkuURbLY2wf%2FQoRazX%2Bh3m%2Bzd4FC7w3tZ7vBycZ15o6mGNPe3dfG6%2B4A33x%2FySXylTm%2Bv2linTQ71TzOWnh3rZWoZ1zecKVMe%2FzbXkbQk1E8iYLLUjC%2Fz28gYld0RK93BddbgbDmcL1PeNyl4u9v7GWGOUB817XIo%2F4q%2FpO1T3VDncOsgZntfk%2Fv%2BAsIOVFkvc5bPEakSCDqcYN6cwiZEdTHF05zmurP2ZxvgEodo4STr4tblpiqJHdyBjKf6blYqnDs6Hmvlw6UP27NrD5faloT6%2BF3yX14NXqaQBMohtGr509gVuvnSZP0gjhX4%2BeeAbnG%2BeorUiL5Le9rZf45r3F2qSRLmoUNs5i999vIYXSKRegav%2B%2FzIUW9VO3hkCurV8i1LsD%2B9zVVdSVgHkaP%2B3WTasRqaCWc5NfYtc%2FvBE7QiFJGiTkwKkv5LcWz7eihjfUWIwp67JezHxZo8kUEC%2FUJnkf47COI7KpJfyAY%2Fbi9RH6kS630q31HKJKC0rnAVSUmh3aP22CxZ5IGeZ41jvDPvNGTUntNZhU6aihYSO02Xd%2BzdFJqsLHMpeiU4ijTgSkboOLSpCm3N%2F6y7dvqw3c6kUIe28TTfuEpsEozJYNhZ6C7zvvI8R8LpqbD1jdbDCZfefXPavCtSoNLFP5c6HpjZQhEgdGWmdWvZu8mn%2B26GTVtR7nXJOK9YbX%2FHfMKlQpqYtgf2dqYkabqQlSDWytV5LV6nU6jj%2BDvqlgnjrMZP%2BCBPRxNC%2FPeOx4awzqCbsHswSF4macjB03EyTWAUVAmKtXu4vB5dPyfK65iH7d5yjGo4xUdtlK2DQnw7Li%2BxIJfHdYPjM1tvkBRVnnOP7TrKs3r%2Fdk2mL1lC7RWvBarUc1t4%2ByyWCQFe7isvnBECit%2FNqt%2F%2FbsrbzRbEmLSWyiKhHr72Mb6w6tXBhXFwTsNZeJVBJ7GYH96WLye4EQX%2BSk7vKRLX7zC99SporX7WEq3FNWmR95SwXzeQPuZMrw1BNuM2ItV67ptlYqdiITJNxnqJZDAjrVfLlpoBIcNYL7DHuHFVdF4cvO2LDbg3%2FCBOeBj1QllGF5w%2B8QGP6SS1uK9S1zria3XK5bUs6i97VrYiBgOVis9DRz1uSoL4%2F1AjG%2BIw6B8XYqJjVeuwFw0aRG23T5snAArODHfq2yExvWEv7zJEGMmXq%2BTX5gBhqhsxOH%2BNY47A%2BkLSgeRqv4KkCtmX%2FC4t9pd0jdS0zemY2yPSNU1YnmiFD6kwtcjaq1Ev8aEMQcv4DjgZLB7xNKcAAAAAASUVORK5CYII%3D)](https://shop.megabuild.de)
 [![Wiki](https://img.shields.io/badge/Wiki-22153A?style=for-the-badge&logo=readthedocs&logoColor=C985FF)](https://wiki.megabuild.de)
 [![Status](https://img.shields.io/badge/Status-22153A?style=for-the-badge&logo=statuspage&logoColor=8CFFB8)](https://status.megabuild.de)
 
@@ -64,15 +64,16 @@
 
 <img src="https://raw.githubusercontent.com/Kay313/Kay313/main/assets/divider.svg" alt="" width="100%">
 
-<!-- Die folgenden Karten kommen von Drittanbieter-Diensten (github-readme-stats,
-     demolab). Sie sind in den MegaBuild-Farben eingefärbt, können aber gelegentlich
-     langsam laden oder ausfallen — dann sind sie kurz als kaputtes Bild zu sehen.
-     Wenn dich das stört: Block einfach löschen, der Rest der Seite bleibt intakt. -->
+<!-- Die beiden Karten von github-readme-stats (Stats + Top Languages) standen
+     hier und sind am 2026-08-01 entfernt worden: die oeffentliche Instanz
+     github-readme-stats.vercel.app antwortet mit DEPLOYMENT_PAUSED, die Karten
+     blieben also dauerhaft kaputt. Wer sie zurueck will, hostet den Dienst
+     selbst (github.com/anuraghazra/github-readme-stats, Deploy auf Vercel mit
+     eigenem PAT) und traegt die eigene Domain statt .vercel.app ein.
 
-<img src="https://github-readme-stats.vercel.app/api?username=Kay313&show_icons=true&rank_icon=github&border_radius=14&bg_color=170D29&title_color=C985FF&icon_color=FF91E9&text_color=DDD2EE&border_color=422B6C" alt="GitHub Stats" height="170">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kay313&layout=compact&langs_count=8&border_radius=14&bg_color=170D29&title_color=C985FF&text_color=DDD2EE&border_color=422B6C" alt="Top Languages" height="170">
-
-<br><br>
+     Die beiden folgenden Karten laufen ueber Fremd-Dienste und sind geprueft
+     erreichbar, koennen aber ebenfalls ausfallen. Block loeschen stoert den
+     Rest der Seite nicht. -->
 
 <img src="https://streak-stats.demolab.com/?user=Kay313&border_radius=14&background=170D29&border=422B6C&stroke=422B6C&ring=C985FF&fire=FF91E9&currStreakLabel=C985FF&sideLabels=DDD2EE&dates=AB9DC0&currStreakNum=FFFAFF&sideNums=FFFAFF" alt="Streak" height="170">
 
