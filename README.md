@@ -103,7 +103,7 @@ My focus is **Java backends and distributed server systems**: Velocity proxies, 
 
 **Frontend &amp; Apps**
 
-![TypeScript](https://img.shields.io/badge/TypeScript-22153A?style=for-the-badge&logo=typescript&logoColor=C985FF)
+![App Development](https://img.shields.io/badge/App%20Development-22153A?style=for-the-badge)
 ![Expo](https://img.shields.io/badge/Expo-22153A?style=for-the-badge&logo=expo&logoColor=C985FF)
 ![Tailwind](https://img.shields.io/badge/Tailwind-22153A?style=for-the-badge&logo=tailwindcss&logoColor=C985FF)
 ![Node.js](https://img.shields.io/badge/Node.js-22153A?style=for-the-badge&logo=nodedotjs&logoColor=C985FF)
